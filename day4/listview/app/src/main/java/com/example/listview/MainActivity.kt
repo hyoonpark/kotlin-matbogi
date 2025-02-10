@@ -1,6 +1,7 @@
 package com.example.listview
 
 import android.os.Bundle
+import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +17,18 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val listItem = mutableListOf<ListViewModel>()
+
+        listItem.add(ListViewModel("a", "b"))
+        listItem.add(ListViewModel("c", "d"))
+        listItem.add(ListViewModel("e", "f"))
+
+
+        val listView = findViewById<ListView>(R.id.mainListview)
+
+        val listAdapter = ListViewAdapter(listItem)
+
+        listView.adapter = listAdapter
     }
 }
