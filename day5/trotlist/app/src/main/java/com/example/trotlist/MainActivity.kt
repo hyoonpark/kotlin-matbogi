@@ -11,7 +11,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        
+        // 1. navigation 만들기
+
+        // 2. Fragment 만들고 연결하기
+
+        // 3. RecyclerView 만들기
+
 
     }
 }
