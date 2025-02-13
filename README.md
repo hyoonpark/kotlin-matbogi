@@ -47,3 +47,32 @@
   - Intent Extra
   - ImageView scaleType
   - Activity Lifecycle
+
+### Day 3 - DataBinding과 주사위 게임 구현
+- 주요 학습 내용
+  - DataBinding 설정 및 사용법
+  - findViewById 대체 방법
+  - Random 함수를 활용한 난수 생성
+  - 조건문을 활용한 이미지 리소스 변경
+  - Kotlin에서의 변수 선언과 초기화
+
+- 구현 기능
+  1. DataBinding 예제
+     - DataBinding 기본 설정
+     - XML 레이아웃과 코드 바인딩
+     - 버튼 클릭 이벤트 처리
+  
+  2. 주사위 게임 앱
+     - 두 개의 주사위 구현
+     - 버튼 클릭시 랜덤한 주사위 값 생성
+     - 주사위 값에 따른 이미지 동적 변경
+     - Toast 메시지로 사용자 피드백 제공
+
+- 사용된 기술
+  - DataBinding
+  - Random 클래스
+  - ImageView 리소스 동적 변경
+  - LinearLayout
+  - Toast
+  - Kotlin 조건문
+  - Gradle 설정
