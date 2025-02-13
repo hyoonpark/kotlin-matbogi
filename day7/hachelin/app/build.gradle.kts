@@ -1,15 +1,14 @@
 plugins {
-    id("com.android.application")
-    id("kotlin-android")
-    id("com.google.gms.google-services")
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
 }
 
 android {
-    namespace = "com.example.fblogin"
+    namespace = "com.example.hachelin"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.fblogin"
+        applicationId = "com.example.hachelin"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -46,14 +45,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    // Import the Firebase BoM
-    implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
-
-    // TODO: Add the dependencies for Firebase products you want to use
-    // When using the BoM, don't specify versions in Firebase dependencies
-    implementation("com.google.firebase:firebase-analytics")
-    implementation("com.google.firebase:firebase-auth")
-    implementation("com.google.firebase:firebase-firestore")
-//    implementation("com.google.firebase:firebase-auth-ktx")
 }
