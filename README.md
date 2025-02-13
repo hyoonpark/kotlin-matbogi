@@ -167,3 +167,44 @@
   - LinearLayout
   - Custom Interface
   - Data Class
+
+### Day 6 - Firebase 인증과 데이터베이스 활용
+- 주요 학습 내용
+  - Firebase 프로젝트 설정
+  - Firebase Authentication
+  - Cloud Firestore 데이터베이스
+  - DatePickerDialog 활용
+  - AlertDialog 커스터마이징
+
+- 구현 기능
+  1. Firebase 인증 구현
+     - 익명 로그인
+     - 이메일/비밀번호 회원가입
+     - 로그인/로그아웃 기능
+     - 인증 상태 확인
+  
+  2. 다이어트 메모 앱 제작
+     - 스플래시 화면 구현
+     - 사용자 인증 연동
+     - 메모 작성 다이얼로그
+     - 날짜 선택 기능
+     - ListView로 메모 목록 표시
+     - Firestore에 메모 저장/조회
+  
+  3. 데이터 모델 설계
+     - DataModel 클래스 구현
+     - BaseAdapter 활용
+     - ListView 커스텀 레이아웃
+     - 데이터 CRUD 구현
+
+- 사용된 기술
+  - Firebase Auth
+  - Firestore
+  - DataModel
+  - BaseAdapter
+  - ListView
+  - AlertDialog
+  - DatePickerDialog
+  - LayoutInflater
+  - Handler
+  - Toast
