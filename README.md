@@ -1,9 +1,6 @@
 # kotlin-matbogi
 코틀린으로 화면 구현 맛보기
 
-# kotlin-matbogi
-코틀린으로 화면 구현 맛보기
-
 ## 학습 내용
 
 ### Day 1 - 안드로이드 기본 UI 구현
@@ -27,3 +24,26 @@
   - Toast
   - OnClickListener
   - ViewBinding
+
+### Day 2 - 스플래시 화면과 카드뷰 활용
+- 주요 학습 내용
+  - 스플래시 화면 구현
+  - Handler를 이용한 화면 전환 딜레이
+  - CardView를 활용한 이미지 스타일링
+  - Intent Extra를 통한 데이터 전달
+  - LinearLayout을 활용한 그리드 형태의 UI 구현
+
+- 구현 기능
+  - 3초간 표시되는 스플래시 화면
+  - TWICE 멤버 이미지를 3x3 그리드로 표시
+  - CardView를 사용한 둥근 모서리 이미지 처리
+  - 이미지 클릭 시 전체화면으로 확대
+  - Intent putExtra를 통한 멤버 정보 전달
+
+- 사용된 기술
+  - LinearLayout
+  - CardView
+  - Handler
+  - Intent Extra
+  - ImageView scaleType
+  - Activity Lifecycle
