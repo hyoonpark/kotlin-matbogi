@@ -76,3 +76,49 @@
   - Toast
   - Kotlin 조건문
   - Gradle 설정
+
+### Day 4 - 안드로이드 심화 기능 학습
+- 주요 학습 내용
+  - 뒤로가기 버튼 커스터마이징
+  - 커스텀 폰트 적용
+  - List와 ListView 활용
+  - BaseAdapter를 활용한 커스텀 리스트뷰
+  - DataBinding과 ListView 결합
+  - Random 함수를 활용한 데이터 랜덤 출력
+
+- 구현 기능
+  1. 뒤로가기 기능
+     - OnBackPressedCallback 구현
+     - 2초 내 더블 클릭 시 앱 종료
+     - Toast 메시지로 사용자 안내
+  
+  2. 커스텀 폰트
+     - 외부 폰트 파일(bmjua_ttf) 적용
+     - XML에서 fontFamily 속성 사용
+  
+  3. List 실습
+     - MutableList 생성 및 데이터 추가
+     - Log를 통한 데이터 확인
+  
+  4. ListView 구현
+     - BaseAdapter를 상속한 커스텀 어댑터 생성
+     - 커스텀 레이아웃을 통한 리스트 아이템 디자인
+     - ListView와 어댑터 연동
+  
+  5. 명언 앱 제작
+     - 랜덤 명언 표시 기능
+     - 전체 명언 목록 보기
+     - DataBinding을 활용한 UI 업데이트
+     - 커스텀 폰트가 적용된 리스트뷰
+
+- 사용된 기술
+  - OnBackPressedCallback
+  - Custom Font
+  - MutableList
+  - ListView
+  - BaseAdapter
+  - LayoutInflater
+  - DataBinding
+  - Random
+  - Intent
+  - Toast
