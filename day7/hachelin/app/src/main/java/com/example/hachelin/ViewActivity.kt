@@ -3,6 +3,7 @@ package com.example.hachelin
 import android.os.Bundle
 import android.webkit.WebView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -34,6 +35,7 @@ class ViewActivity : AppCompatActivity() {
         val save = findViewById<TextView>(R.id.save)
         save.setOnClickListener {
             docRef.set(ContentsModel(url, imageUrl, title))
+            Toast.makeText(baseContext, "저장 성공", Toast.LENGTH_SHORT).show()
         }
     }
 }
