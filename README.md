@@ -122,3 +122,48 @@
   - Random
   - Intent
   - Toast
+
+### Day 5 - Fragment와 RecyclerView 심화 학습
+- 주요 학습 내용
+  - Navigation Component 활용
+  - Fragment 간 화면 전환
+  - RecyclerView 구현 및 활용
+  - ListView와 RecyclerView 비교
+  - Adapter 패턴의 이해와 구현
+
+- 구현 기능
+  1. ListView 복습
+     - BaseAdapter를 활용한 커스텀 리스트뷰
+     - 아이템 클릭 이벤트 처리
+     - 데이터 모델 클래스 활용
+  
+  2. Navigation Fragment
+     - Fragment 간 이동 구현
+     - Navigation Graph 설정
+     - Fragment Container 활용
+     - Fragment 생명주기 이해
+  
+  3. RecyclerView 기본
+     - RecyclerView Adapter 구현
+     - ViewHolder 패턴 이해
+     - LayoutManager 설정
+     - 아이템 클릭 리스너 구현
+  
+  4. 트로트 가수 앱 제작
+     - Navigation과 Fragment 결합
+     - RecyclerView로 노래 목록 표시
+     - 가수별 프래그먼트 전환
+     - 이미지 클릭으로 화면 전환
+     - 커스텀 레이아웃 적용
+
+- 사용된 기술
+  - Navigation Component
+  - Fragment
+  - RecyclerView
+  - ViewHolder Pattern
+  - LayoutManager
+  - BaseAdapter
+  - ConstraintLayout
+  - LinearLayout
+  - Custom Interface
+  - Data Class
