@@ -208,3 +208,46 @@
   - LayoutInflater
   - Handler
   - Toast
+
+### Day 7 - 맛집 리뷰 앱(하슐랭) 제작
+- 주요 학습 내용
+  - RecyclerView와 GridLayout 활용
+  - Glide 이미지 로딩 라이브러리 사용
+  - WebView 구현
+  - Firebase 인증/데이터베이스 연동
+  - 북마크 기능 구현
+
+- 구현 기능
+  1. 맛집 목록 화면
+     - GridLayout으로 2열 그리드뷰 구현
+     - 맛집 이미지와 정보 표시
+     - 커스텀 카드뷰 디자인
+     - Glide로 이미지 로딩
+  
+  2. 상세 화면
+     - WebView로 맛집 상세 정보 표시
+     - 북마크 저장 기능
+     - Firestore에 즐겨찾기 데이터 저장
+  
+  3. 회원 관리
+     - 이메일 회원가입/로그인
+     - 스플래시 화면에서 로그인 상태 확인
+     - Firebase Auth로 사용자 인증
+  
+  4. 북마크 기능
+     - 즐겨찾기 맛집 목록 표시
+     - Firestore에서 북마크 데이터 조회
+     - 북마크 추가/삭제 기능
+
+- 사용된 기술
+  - RecyclerView
+  - GridLayoutManager
+  - CardView
+  - WebView
+  - Glide
+  - Firebase Auth
+  - Firestore
+  - Custom Font
+  - ConstraintLayout
+  - LinearLayout
+  - Intent
