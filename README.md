@@ -251,3 +251,39 @@
   - ConstraintLayout
   - LinearLayout
   - Intent
+
+### Day 8 - D-Day 계산기 앱 제작
+- 주요 학습 내용
+  - Calendar 클래스 활용
+  - DatePickerDialog 구현
+  - 날짜 계산 로직 구현
+  - UI 디자인과 이미지 처리
+  - 시간 단위 변환
+
+- 구현 기능
+  1. 날짜 선택 기능
+     - 시작일/종료일 선택 버튼
+     - DatePickerDialog로 날짜 선택
+     - Calendar 객체로 날짜 관리
+  
+  2. D-Day 계산
+     - 두 날짜 간의 차이 계산
+     - 밀리초 단위를 일 단위로 변환
+     - D+ / D- 형식으로 결과 표시
+  
+  3. UI 구현
+     - 투명도가 적용된 배경 이미지
+     - 중앙에 D-Day 결과 표시
+     - 하단에 시작일/종료일 선택 버튼 배치
+     - 직관적인 사용자 인터페이스
+
+- 사용된 기술
+  - Calendar
+  - GregorianCalendar
+  - DatePickerDialog
+  - ConstraintLayout
+  - ImageView
+  - TextView
+  - Button
+  - Alpha 속성
+  - TimeUnit
